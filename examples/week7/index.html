@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS 練習</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- 
     步驟一：引入 Tailwind CSS
@@ -11,17 +12,17 @@
     <script src="https://cdn.tailwindcss.com"></script> 
 
     步驟二：
-    1. 前往 Tailwind CSS 官方文件：https://tailwindcss.com/docs
+    1. 前往 Tailwind CSS 官方文件：https://v3.tailwindcss.com/docs
     2. 學習如何使用 Tailwind 的 utility classes
     3. 透過添加適當的 class 來設計網頁樣式
     -->
   </head>
   <body>
     <!-- 導航列 -->
-    <nav>
-      <div>
+    <nav class="px-6 py-4 border-b mb-12">
+      <div class="flex justify-between items-center">
         <img src="https://placehold.jp/100x50.png" alt="Logo" />
-        <ul>
+        <ul class="flex gap-x-4">
           <li><a href="#">首頁</a></li>
           <li><a href="#">關於我們</a></li>
           <li><a href="#">服務項目</a></li>
